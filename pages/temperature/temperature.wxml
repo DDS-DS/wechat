@@ -1,0 +1,16 @@
+<!--pages/temperature/temperature.wxml-->
+<view class="test" hover-class="none" hover-stop-propagation="false">
+    <view class="address">你的位置：{{address}}</view>
+    <view class="now">
+        <view class="box1 weather">实时天气</view>
+        <view class="box1 update">{{update_time}}</view>
+        <view class="box2 temp">{{temp}}℃</view>
+        <view class="box2 text">{{text}}</view>
+        <view class="box2 humidity">室外湿度：{{humidity}}%</view>
+    </view>
+    <view class="now">
+        <view class="">室内情况</view>
+        <view class="time">更新时间：{{post.at}}</view>
+        <view class="my_temp">当前室内温度：{{post.value}}</view>
+    </view>>
+</view>

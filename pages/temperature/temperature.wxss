@@ -1,0 +1,42 @@
+/* pages/temperature/temperature.wxss */
+page{
+    background-image: url("https://pic.baixiongz.com/uploads/2021/02/25/ce3e551264d53.jpg");
+    background-size: 100% 100%;
+    position: fixed;
+    overflow: hidden;
+    margin: 0rpx;
+  }
+.test{
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+.address{
+    margin: 5% 6%;
+}
+.now{
+    margin: 10% 0% 40%;
+}
+.box1 {
+    display: inline-block;
+}
+.box2{
+    display: inline-block;
+}
+
+.weather{
+    width: 150rpx;
+    margin: 6%;
+}
+.update{
+    width: 430rpx;
+    margin: 6% 5% 6%;
+}
+.temp{
+    font-size: 100rpx;
+    margin: 6% 10% 6%;
+}
+.text{
+    font-size: 50rpx;
+    margin-left: 30%;    
+}
+

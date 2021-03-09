@@ -1,0 +1,4 @@
+/* pages/camera/camera.wxss */
+.see{
+    margin: 10%;
+}

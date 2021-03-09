@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class="all">
+    <view class="title" > {{ msg }} </view>
+    <view class="module" >
+        <navigator url="../temperature/temperature" hover-class="navigator-hover" open-type="navigate">
+            <image class="test" src="https://pic.baixiongz.com/uploads/2021/02/28/98d5be3c758fc.jpeg" mode="widthFix" ></image>         
+        </navigator>
+        <view class="mini-title">温湿度监控</view> 
+    </view>
+    <view class="module" >
+        <navigator url="../weight/weight" hover-class="navigator-hover" open-type="navigate">
+            <image class="test" src="https://pic.baixiongz.com/uploads/2021/02/28/77afadcb4503f.jpeg" mode="widthFix" ></image>         
+        </navigator>
+        <view class="mini-title">称重/喂养</view>  
+    </view>  
+    <view>
+        <navigator url="../camera/camera">
+            <image class="camera" src="https://pic.baixiongz.com/uploads/2021/02/28/79e7d085ddc72.jpg" mode="widthFix"></image>
+        </navigator>
+        <view class="mini-title">视频监控</view>
+    </view>
+     
+</view>        

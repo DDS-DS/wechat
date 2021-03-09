@@ -1,0 +1,2 @@
+<!--pages/camera/camera.wxml-->
+<web-view class='see' src="http://47.111.13.61:8080/javascript_simple.html" bindmessage=""></web-view>
