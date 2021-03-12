@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#87ceeb",
+  "navigationBarTitleText": "称重模块"
 }

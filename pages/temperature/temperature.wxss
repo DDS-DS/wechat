@@ -12,15 +12,20 @@ page{
 }
 .address{
     margin: 5% 6%;
+    font-size: 38rpx;
+    background-color: darkred;
 }
 .now{
-    margin: 10% 0% 40%;
+    margin: 10% 3% 20%;
+    background-color: rgb(37, 7, 206);
 }
 .box1 {
     display: inline-block;
+    font-size: 38rpx;
 }
 .box2{
     display: inline-block;
+    font-size: 38rpx;
 }
 
 .weather{
@@ -29,7 +34,7 @@ page{
 }
 .update{
     width: 430rpx;
-    margin: 6% 5% 6%;
+    margin: 6% 2% 6%;
 }
 .temp{
     font-size: 100rpx;
@@ -39,4 +44,19 @@ page{
     font-size: 50rpx;
     margin-left: 30%;    
 }
-
+.humidity{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.now2{
+    margin: 6%;
+    background-color: rgb(37, 7, 206);
+    font-size: 38rpx;
+}
+.my_temp{
+    margin-top: 5%;
+    font-size: 50rpx;
+}
+.room{
+    margin: 5% 0%;
+}

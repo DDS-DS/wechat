@@ -1,2 +1,6 @@
 <!--pages/weight/weight.wxml-->
-<text>pages/weight/weight.wxml</text>
+<view class="all">
+    <view>当前的重量为：</view>
+    <view>{weight}</view>
+    <input type="number" value="请输入你要置零的数值..."/>
+</view>

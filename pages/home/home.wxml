@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
 <view class="all">
-    <view class="title" > {{ msg }} </view>
+    <view class="title" > 欢迎使用chris智能家居系统 </view>
     <view class="module" >
         <navigator url="../temperature/temperature" hover-class="navigator-hover" open-type="navigate">
             <image class="test" src="https://pic.baixiongz.com/uploads/2021/02/28/98d5be3c758fc.jpeg" mode="widthFix" ></image>         

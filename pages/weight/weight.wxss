@@ -1,1 +1,11 @@
 /* pages/weight/weight.wxss */
+page{
+    background-image: url("https://pic.baixiongz.com/uploads/2021/02/25/ce3e551264d53.jpg");
+    background-size: 100% 100%;
+    position: fixed;
+    overflow: hidden;
+    margin: 0rpx;
+  }
+.all{
+    color: rgb(255, 255, 255);
+}

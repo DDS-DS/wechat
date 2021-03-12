@@ -1,10 +1,10 @@
 {
   "pages":[
-    "pages/temperature/temperature",
+    "pages/weight/weight",
     "pages/home/home",
+    "pages/temperature/temperature",
     "pages/camera/camera", 
     "pages/me/me",
-    "pages/weight/weight",
     "pages/index/index",
     "pages/logs/logs"
   ],

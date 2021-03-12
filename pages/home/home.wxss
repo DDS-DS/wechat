@@ -6,6 +6,7 @@ page{
   position: fixed;
   overflow: hidden;
   margin: 0rpx;
+  font-size: 38rpx;
 }
 /* home页标题的样式 
     1. 字体居中
