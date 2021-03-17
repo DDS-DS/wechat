@@ -13,18 +13,20 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
-    //onenet获取重力模块数据
-    wx.request({
-      url: 'https://api.heclouds.com/devices/578362376/datapoints',
-      header: {'api-key':'kXqtemejsTWqn5HtJskE8sDywb0='},
-      method: 'GET',
-      success: (result)=>{
-        console.log(result)
-        that.setData({
-          post:result.data.data.datastreams[0].datapoints[0]
-        })
-      }
-    })
+    // setInterval(function(){
+      //onenet获取重力模块数据
+      wx.request({
+        url: 'https://api.heclouds.com/devices/578362376/datapoints',
+        header: {'api-key':'kXqtemejsTWqn5HtJskE8sDywb0='},
+        method: 'GET',
+        success: (result)=>{
+          console.log(result)
+          that.setData({
+            post:result.data.data.datastreams[0].datapoints[0]
+          })
+        }
+      })
+    // },1000)
   },
 
   /**

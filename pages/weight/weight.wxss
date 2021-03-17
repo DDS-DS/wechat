@@ -9,3 +9,18 @@ page{
 .all{
     color: rgb(255, 255, 255);
 }
+
+.write{
+    border: solid;
+    border-bottom-color: #fff;
+    margin: 3% 0%;
+}
+.num{
+    margin: 2%;
+}
+.all{
+    margin: 15%;
+}
+.reset{
+    margin-top: 20%;
+}

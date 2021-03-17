@@ -2,5 +2,12 @@
 <view class="all">
     <view>当前的重量为：</view>
     <view>{weight}</view>
-    <input type="number" value="请输入你要置零的数值..."/>
+    <view class="reset">
+        <view>请输入要置零的数值...</view>
+        <view class="write">
+            <input class="num" type="digit" placeholder="保留小数点后两位"/>
+        </view>
+        <button class="but" size="mini">重置</button>
+    </view>
+    
 </view>
